@@ -116,7 +116,7 @@ looking for this file when performing static analysis.
 sonar.projectKey={name of project}
 sonar.host.url=http://localhost:##### (nodePort of sonar service)
 sonar.login=${env.SONAR_TOKEN}
-sonar.java.binaries=build/classes
+sonar.java.binaries=target/classes
 sonar.sources=src/main/java
 ``` 
 
