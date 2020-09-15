@@ -97,6 +97,8 @@ In order to persist changes within SonarQube, a persistent volume such as Postgr
     2. Copy the number next to `nodePort` IE: `31564`
 2. Open a new Chrome/Firefox tab/browser
     1. Go to `localhost:{nodePort you just copied}`
+3. Login with default account
+    1. `admin` / `admin`
 
 ##### To delete the Kubernetes deployment is as follows
 1. `kubectl delete deployment sonar-postgres`
