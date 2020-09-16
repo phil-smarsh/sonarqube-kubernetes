@@ -122,10 +122,10 @@ sonar.sources=src/main/java
 
 An example config would look like the following
 ```
-sonar.projectKey=notificationemailproc
-sonar.host.url=http://localhost:31828
+sonar.projectKey=archiver-services-parser
+sonar.host.url=http://localhost:31017
 sonar.login=${env.SONAR_TOKEN}
-sonar.java.binaries=build/classes
+sonar.java.binaries=target/classes
 sonar.sources=src/main/java
 ```
 
